@@ -8,7 +8,7 @@ CREATE TABLE publisher
     publisher_id integer PRIMARY KEY
 )
 ```
-[View Table](./%236_One_To_Many_Relationships.md#publisher-table)
+[View Table](./6_One_To_Many_Relationships.md)
 
 ### Create table book
 
@@ -21,4 +21,4 @@ CREATE TABLE book
     fk_publisher_id integer REFERENCES publisher(publisher_id) NOT NULL 
 )
 ```
-[View Table](%236_One_To_Many_Relationships.md#book-table)
+[View Table](./6_One_To_Many_Relationships.md#book-table)

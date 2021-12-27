@@ -1,0 +1,3 @@
+-- placeholder `%` meaning 0, 1 or more characters
+-- placeholder `_` meaning 1 any char
+-- LIKE `U%` - string, beginning with `U`
