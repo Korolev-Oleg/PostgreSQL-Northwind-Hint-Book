@@ -27,29 +27,20 @@ sudo passwd postgres
 
 ## Build Northwind
 
-Export postgres bin into PATH
-
 ```shell
+# Export postgres bin into PATH
 su - postgres
 export PATH=$PATH:/usr/pgadmin4/bin
-```
 
-Create Northwind Database
-
-```shell
+# Create Northwind Database
 createdb --encoding UNICODE northwind --username postgres
-```
 
-Execute northwind sql.
-
-copy file `./Introduction_Into_SQL/northwind.sql` into clipboard Paste and execute this Sql into psql console
-
-```shell
-su -c psql postgres
-# paste northwind.sql by ctrl + v and tap <enter>
+# Execute northwind sql.
+psql -f {PATH_TO_PROJECT}/ ./northwind.sql
 ```
 
 ## Resources
 
 * [Fofanov Ilya - Practice SQL and PostgreSQL course ](https://www.udemy.com/course/bestpostgres/)
 * [PostgreSQL docs](https://www.postgresql.org/docs/)
+* [Alan Beaulieu - Learning SQL 3rd Edition](https://learning.oreilly.com/library/view/learning-sql-3rd/9781492057604/)
