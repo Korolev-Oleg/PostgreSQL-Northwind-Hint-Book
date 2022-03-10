@@ -1,10 +1,11 @@
 # PostgreSQL Northwind Hint Book
 
 > Python3,
-> Fedora=35,
 > pgsql=14
 
-## Installing PostgreSQL In Fedora 35
+## Manual installing PostgreSQL In Fedora 35
+
+For other distros, look [Linux downloads](https://www.postgresql.org/download/linux/) page.
 
 ```shell
 # Install the repository RPM:
@@ -19,6 +20,17 @@ sudo systemctl enable postgresql-14
 sudo systemctl start postgresql-14
 ```
 
+Enable and start postgresql service in pure-linux
+```shell
+sudo systemclt enable postgresql.service
+sudo systemclt start postgresql.service
+```
+
+For windows-subsystem-linux
+```shell
+sudo service postgresql start
+```
+
 Change password for user `postgres`
 
 ```shell
@@ -28,15 +40,20 @@ sudo passwd postgres
 ## Build Northwind
 
 ```shell
-# Export postgres bin into PATH
-su - postgres
-export PATH=$PATH:/usr/pgadmin4/bin
+# Create northwind_admin user. Don't forgot change password
+sudo -u postgres psql -c "CREATE USER northwind_admin WITH PASSWORD '___NORTHWIND_ADMIN_PASSWORD___';" 
 
 # Create Northwind Database
-createdb --encoding UNICODE northwind --username postgres
+sudo -u postgres createdb northwind --username postgres
 
-# Execute northwind sql.
-psql -f {PATH_TO_PROJECT}/ ./northwind.sql
+# Grant all privileges to northwind_admin
+sudo -u postgres psql northwind -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA  public TO northwind_admin;"
+```
+
+Execute northwind sql.
+
+```shell
+sudo -u postgres psql northwind -f ./northwind.sql
 ```
 
 ## Resources

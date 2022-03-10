@@ -7,7 +7,7 @@ WHERE freight >= 20 AND freight <= 40;
 -- The same with BETWEEN including boundaries
 SELECT *
 FROM orders
-WHERE freight BETWEEN 79 AND 80
+WHERE freight BETWEEN 79 AND 80;
 
 -- BETWEEN unworkable this
 SELECT count(*)

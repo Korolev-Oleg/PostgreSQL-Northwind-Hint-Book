@@ -53,8 +53,8 @@ VALUES (1, 123456, 1, 'Waterfall'),
 
 ## Full Joined Select Result
 
-| id | first_name | last_name | serial_number | registration   |
-|----|------------|-----------|---------------|----------------|
-| 1  | John       | Snow      | 123456        | Waterfall      |
-| 2  | Ned        | Stark     | 789012        | Waterfall      |
-| 3  | Rob        | Brethren  | 345678        | King's Landing |
+| id  | first_name | last_name | serial_number | registration   |
+|-----|------------|-----------|---------------|----------------|
+| 1   | John       | Snow      | 123456        | Waterfall      |
+| 2   | Ned        | Stark     | 789012        | Waterfall      |
+| 3   | Rob        | Brethren  | 345678        | King's Landing |

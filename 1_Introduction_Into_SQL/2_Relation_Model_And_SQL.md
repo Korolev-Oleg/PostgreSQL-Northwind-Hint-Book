@@ -1,8 +1,8 @@
 # Relational DBMS
 
 * The theoretical basis is relational algebra
-* Relational algebra defines a system of operations on relations (tables): union, intersection, subtraction,
-  connection, etc.
+* Relational algebra defines a system of operations on relations (tables): union, intersection, subtraction, connection,
+  etc.
 * All operations are expressed in SQL
 
 # Relational model
@@ -17,7 +17,7 @@
 * Entity - customers, orders, suppliers
 * Table - ratio
 * Column - attribute (contact_name, address, city)
-* Result set 
+* Result set
 
 ```sql
 SELECT contact_name, address, city
@@ -29,7 +29,9 @@ LIMIT 5 OFFSET 10
 
 * SQL is not a procedural language or a general language
 * If you need to implement procedural logic, you need another language, such as Python, C #, Java, etc.
+
 ---
+
 * The result of an SQL query is a result set (usually a table)
 * DDL (Data Definition Language) - `CREATE`, `ALTER`, `DROP`
 * DML (Data Manipulation Language) - `SELECT`, `INSERT`, `UPDATE`, `DELETE`
