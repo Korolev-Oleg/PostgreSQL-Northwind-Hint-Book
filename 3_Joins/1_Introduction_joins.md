@@ -27,7 +27,8 @@
 | 3 | The Book of Gutsy Women: Favorite Stories of Courage and Resilience | 1501178415 | 2 |
 | 4 | War and Peace | 178886526 | 2 |
 
-## Inner Join no publisher_id
+## Inner Join with publisher_id
+
 | id | name | address | title | ISBN |
 | :--- | :--- | :--- | :--- |
 | 1 | Everyman's Library | NY | The Diary of a Young Girl | 0199535566 | 

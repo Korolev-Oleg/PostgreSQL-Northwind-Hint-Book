@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="das://e675bb3b-f41f-48a2-b15f-9420c451a27c/database/northwind/schema/public/table/customers.sql" charset="US-ASCII" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e675bb3b-f41f-48a2-b15f-9420c451a27c/console.sql" charset="US-ASCII" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e675bb3b-f41f-48a2-b15f-9420c451a27c/console_1.sql" charset="US-ASCII" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e675bb3b-f41f-48a2-b15f-9420c451a27c/console_1.sql" charset="UTF-8" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e675bb3b-f41f-48a2-b15f-9420c451a27c/console_2.sql" charset="US-ASCII" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e675bb3b-f41f-48a2-b15f-9420c451a27c/console_3.sql" charset="US-ASCII" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/e675bb3b-f41f-48a2-b15f-9420c451a27c/console_4.sql" charset="US-ASCII" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" charset="UTF-8" />
   </component>
 </project>
