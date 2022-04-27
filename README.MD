@@ -61,3 +61,4 @@ sudo -u postgres psql northwind -f ./northwind.sql
 * [Fofanov Ilya - Practice SQL and PostgreSQL course ](https://www.udemy.com/course/bestpostgres/)
 * [PostgreSQL docs](https://www.postgresql.org/docs/)
 * [Alan Beaulieu - Learning SQL 3rd Edition](https://learning.oreilly.com/library/view/learning-sql-3rd/9781492057604/)
+* [PostgreSQL. SQL Basics](https://www.postgrespro.ru/education/books/sqlprimer)

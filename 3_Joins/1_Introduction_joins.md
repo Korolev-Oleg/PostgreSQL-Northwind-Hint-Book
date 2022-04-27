@@ -30,7 +30,7 @@
 ## Inner Join with publisher_id
 
 | id | name | address | title | ISBN |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 | 1 | Everyman's Library | NY | The Diary of a Young Girl | 0199535566 | 
 | 1 | Everyman's Library | NY | Pride and Prejudice | 9780307594006 |
 | 2 | Oxford University Press | NY | To Kill a Mockingbird | 0446310786 |
